@@ -8,19 +8,18 @@ body {
     font-family: Aileron;
 }
 
-#vector {
+/* #vector {
     width: 1000px;
     height: auto;
     background: #FFFFFF;
     position: fixed;
     z-index: 0;
-}
+} */
 #logo {
-    z-index: 1;
-    position: relative;
+    margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 218px;
     height: 139px;    
 }
