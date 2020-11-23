@@ -1,37 +1,34 @@
 html, body {
-    margin: auto;
+    margin: 0;
     height: 100%;
 }
 
 body {
-    background-color: #E8E8E8;
+    background-color:#E8E8E8;
     font-family: Aileron;
 }
 
-#vector {
-    width: 1000px;
-    height: auto;
-    background: #FFFFFF;
-    position: fixed;
-    z-index: 0;
+header {
+    display: flex;
+    background: url("./assets/img/Vector 1.png") no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    background-size: 100vw;
 }
-#logo {
-    z-index: 1;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 218px;
-    height: 139px;    
+
+h2 {
+    text-align: center
 }
+
 .container {
     text-align: center;
     background-color: #C4C4C4;
     width: 400px;
     height: 285px;
-    margin: auto;  
+    margin: auto;
     padding: 28px;
-    }
+}
 
 .text-form {
     text-align: left;
@@ -52,4 +49,4 @@ body {
     opacity: 1;
     transition: opacity .5s linear;
     padding: 10px;
-    }
+}
