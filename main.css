@@ -49,4 +49,7 @@ h2 {
     opacity: 1;
     transition: opacity .5s linear;
     padding: 10px;
+    margin: center;
 }
+
+
