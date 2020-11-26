@@ -37,8 +37,8 @@
     <!-- MailChimps static -->
         <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7a0d47bd08b539304235f5a61/d8a7de3c4dee22354ed17f40f.js");</script>
     <!-- End Mailchimp static -->
+
 </head>
-    
     <body>
         <header>
             <img src="./assets/img/logo.png" />
@@ -52,14 +52,21 @@
                 <p>Nossa live acontecerá em breve!</p>
                 <p>Clique no botão abaixo para garantir a sua vaga na estreia assim que a live entrar no ar!</p>
             </div>    
-            <button class="button" aria-label="IR PARA ESTREIA" type="submit">IR PARA ESTREIA</button>
+                <a href="https://www.youtube.com/watch?v=4Q4XQD08dfY" target="blank">          
+                    <button onclick="podcast()" class="button" aria-label="IR PARA ESTREIA" type="submit">IR PARA ESTREIA</button>
+                </a>
         </div>
         
-        
-        <p class="data-atual"></p>
-        <p class="data-evento"></p>
-        <p class="timer"></p>
- 
+    <!-- Countdown -->  
+    <div class = "countdownpossition">
+            <div id="data-atual"></div>
+            <div id="data-evento"></div>
+            <div id="timer-days"></div>
+            <div id="timer-hours"></div>
+            <div id="timer-minutes"></div>
+            <div id="timer-seconds"></div>
+            <div id="timer-end"></div>
+    </div>
         <script src="main.js"></script>
     </body>
 </html> 
