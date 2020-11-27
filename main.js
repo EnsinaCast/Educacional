@@ -7,7 +7,7 @@ let timerHours = document.querySelector('.timer-hours')
 let timerMinutes = document.querySelector('.timer-minutes')
 let timerSeconds = document.querySelector('.timer-seconds')
 
-let diaEvento = new Date('Nov 26, 2020 18:00:00')
+let diaEvento = new Date('Nov 27, 2020 12:00:00')
 
 var myfunc = setInterval(function () {
     let data = new Date().getTime();
@@ -43,14 +43,3 @@ div.addEventListener('mouseleave', function (){
         alertaExibido = true
     }
 })
-
-function podcast (){
-  
-
-}
-// >
-// >=
-// <
-// <=
-// ==
-// !=
