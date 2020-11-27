@@ -30,4 +30,7 @@ Para não abandonar o repositório, continuei trabalhando nele em paralelo enten
 - Como não fazer um Countdown;
 - Aprendi a pesquisar: "[How to create a countdown timer](https://www.w3schools.com/howto/howto_js_countdown.asp)"
 - Integrar pixels de rastreamento em páginas do projeto; 
+- Como adicionar um Favicon!
+- Um pouco do uso do Iframe;
+- Responsividade ❌ 
 

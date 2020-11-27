@@ -1,5 +1,10 @@
-html, body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
     height: 100%;
 }
 
@@ -21,12 +26,17 @@ h2 {
     text-align: center
 }
 
+section {
+    width: 100%;
+
+}
+
 .container {
     text-align: center;
     background-color: #C4C4C4;
     width: 400px;
     height: 285px;
-    margin: auto;
+    margin-left: 90px ;
     padding: 28px;
 }
 
@@ -54,7 +64,6 @@ h2 {
 
 /* Countdown */
 .countdownContainer {
-    text-align: left;
     margin-left: 100px;
     margin-right: 1520px;
     text-align: center;
@@ -73,3 +82,19 @@ h2 {
     border: solid red;
     font-size: 25px;
   }
+
+  /* EnsinaCast -- */
+
+#video {
+    background: #ffff;
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+}
+
+.video-content iframe {
+    width: 500px;
+    margin-left: 400px;
+}
