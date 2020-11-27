@@ -52,16 +52,24 @@ h2 {
     margin: center;
 }
 
-.countdownposition {
-    display: inline;
-    grid-gap: 10px;
-    background-color: #F5F5F5;
-    padding: 10px;
-    border: 1px solid black;
+/* Countdown */
+.countdownContainer {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 1520px;
+    text-align: center;
+    border: solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#demo {
     text-align: center;
     font-size: 30px;
-  }
-  
-.countdownposition > div {
-
+    padding: px;;
+    background-color: #ffdcdc;
+    border-radius: 100px;
+    border: solid red;
+    font-size: 25px;
   }
