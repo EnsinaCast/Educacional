@@ -98,3 +98,10 @@ section {
     width: 500px;
     margin-left: 400px;
 }
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: blue;        
+    }
+    
+}
